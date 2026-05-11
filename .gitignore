@@ -1,0 +1,16 @@
+node_modules/
+dist/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Generated Vite config outputs (keep source as .ts)
+vite.config.js
+vite.config.d.ts
+
+# Prevent accidental JS emit inside TS source folder
+src/**/*.js
+
+# OS/editor files
+.DS_Store
+.vscode/
